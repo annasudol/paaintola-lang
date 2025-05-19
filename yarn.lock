@@ -3313,6 +3313,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prisma/client@npm:6.8.2":
+  version: 6.8.2
+  resolution: "@prisma/client@npm:6.8.2"
+  peerDependencies:
+    prisma: "*"
+    typescript: ">=5.1.0"
+  peerDependenciesMeta:
+    prisma:
+      optional: true
+    typescript:
+      optional: true
+  checksum: 6b372ffef57500a4fa499a162c68dcd48ed155bc48afa767a3419a32773a242844957e750e2d08e4b06d03b927b536afd3e4a46fb4b5c9c0b4f16147fc6ac436
+  languageName: node
+  linkType: hard
+
 "@prisma/config@npm:6.8.2":
   version: 6.8.2
   resolution: "@prisma/config@npm:6.8.2"
@@ -12860,6 +12875,7 @@ __metadata:
     "@formspree/react": "npm:^2.5.1"
     "@headlessui/react": "npm:^2.2.0"
     "@next/bundle-analyzer": "npm:^15.1.0"
+    "@prisma/client": "npm:6.8.2"
     "@svgr/webpack": "npm:^8.1.0"
     "@tailwindcss/forms": "npm:^0.5.9"
     "@tailwindcss/typography": "npm:^0.5.15"
