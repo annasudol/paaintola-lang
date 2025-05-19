@@ -14,7 +14,7 @@ import { LocaleTypes } from 'app/[locale]/i18n/settings'
 import { PostSeriesBox } from '@/components/blog/seriescard'
 import Share from '@/components/share'
 import { Toc } from 'pliny/mdx-plugins'
-import Sidetoc from '@/components/sidetoc'
+import Sidetoc from '@/components/blog/sidetoc'
 
 const editUrl = (path) => `${siteMetadata.siteRepo}/blob/main/data/${path}`
 const discussUrl = (path) =>

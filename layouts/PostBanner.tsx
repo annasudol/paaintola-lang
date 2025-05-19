@@ -14,7 +14,7 @@ import { PostSeriesBox } from '@/components/blog/seriescard'
 import Share from '@/components/share'
 import { LocaleTypes } from 'app/[locale]/i18n/settings'
 import { Toc } from 'pliny/mdx-plugins'
-import Sidetoc from '@/components/sidetoc'
+import Sidetoc from '@/components/blog/sidetoc'
 
 interface PostBannerProps {
   content: CoreContent<Blog>
