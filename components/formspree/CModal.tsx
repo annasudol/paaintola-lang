@@ -1,7 +1,7 @@
 import { useRef, useCallback } from 'react'
 import { useOuterClick } from '../util/useOuterClick'
 import { motion } from 'framer-motion'
-import { MailIcon } from '../search/icons'
+import { MailIcon } from '../blog/search/icons'
 
 interface cModalProps {
   isOpen?: boolean
