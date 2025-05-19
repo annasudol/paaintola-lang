@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import Tag from '@/components/tag'
+import Tag from '@/components/ui/tag'
 import tagData from 'app/[locale]/tag-data.json'
 import { genPageMetadata } from 'app/[locale]/seo'
 import { createTranslation } from 'app/[locale]/i18n/server'
