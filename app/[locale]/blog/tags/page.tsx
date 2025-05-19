@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Tag from '@/components/tag'
 import tagData from 'app/[locale]/tag-data.json'
 import { genPageMetadata } from 'app/[locale]/seo'
-import { createTranslation } from '../i18n/server'
-import { LocaleTypes } from '../i18n/settings'
+import { createTranslation } from 'app/[locale]/i18n/server'
+import { LocaleTypes } from 'app/[locale]/i18n/settings'
 
 interface PageProps {
   params: Promise<{
