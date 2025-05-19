@@ -2,7 +2,7 @@
 
 import { SVGProps, useState } from 'react'
 import Image from 'next/image'
-import Link from '../mdxcomponents/Link'
+import Link from '@/components/ui/Link'
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import { Authors, allAuthors } from 'contentlayer/generated'

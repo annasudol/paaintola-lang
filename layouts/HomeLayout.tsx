@@ -1,4 +1,4 @@
-import Link from '@/components/mdxcomponents/Link'
+import Link from '@/components/ui/Link'
 import siteMetadata from '@/data/siteMetadata'
 import NewsletterForm from '@/components/newletter/NewsletterForm'
 import { createTranslation } from '../app/[locale]/i18n/server'

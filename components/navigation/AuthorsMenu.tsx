@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from '@/components/ui/Link'
 import siteMetadata from '@/data/siteMetadata'
 import { Authors, allAuthors } from 'contentlayer/generated'
 import { Fragment, useRef, useState, useMemo } from 'react'

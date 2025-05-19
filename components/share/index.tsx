@@ -1,7 +1,6 @@
 'use client'
 
 import siteMetadata from '@/data/siteMetadata'
-import SocialIcon from '@/components/social-icons'
 import { useState } from 'react'
 import { useParams, usePathname } from 'next/navigation'
 import { useTranslation } from 'app/[locale]/i18n/client'
@@ -44,7 +43,7 @@ const Share = ({ title, description, slug, className }: ShareProps) => {
         </p>
       </div>
       <div>
-        <ul className={`grid grid-cols-4 gap-4 ${className}`}>
+        {/* <ul className={`grid grid-cols-4 gap-4 ${className}`}>
           <li className="ml-4 inline-block">
             <SocialIcon
               kind="facebook"
@@ -121,7 +120,7 @@ const Share = ({ title, description, slug, className }: ShareProps) => {
               </div>
             )}
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   )

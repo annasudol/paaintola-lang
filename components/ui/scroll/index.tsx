@@ -6,9 +6,9 @@ import { LocaleTypes } from 'app/[locale]/i18n/settings'
 import { useParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import { AlgoliaButton } from 'pliny/search/AlgoliaButton'
-import { KBarButton } from '../search/KBarButton'
+import { KBarButton } from '../../search/KBarButton'
 import { CommentsIcon, ArrowTopIcon } from './icons'
-import { SearchIcon } from '../search/icons'
+import { SearchIcon } from '../../search/icons'
 
 const ScrollTopAndComment = () => {
   const locale = useParams()?.locale as LocaleTypes
