@@ -324,7 +324,6 @@ Example of client-side component, with translation of the button's aria-label:
 'use client'
 
 import { useEffect, useState } from 'react'
-import { useTheme } from 'next-themes'
 /*Import the hook provided by next.js to retrieve the language
 defined by the user, and the client-side translation function: */
 import { useParams } from 'next/navigation'

@@ -9,7 +9,6 @@ import SectionContainer from '@/components/SectionContainer'
 import Footer from '@/components/navigation/Footer'
 import siteMetadata from '@/data/siteMetadata'
 import { maintitle, maindescription } from '@/data/localeMetadata'
-import { ThemeProvider } from '@/components/theme/ThemeContext'
 import { Metadata } from 'next'
 import { dir } from 'i18next'
 import { LocaleTypes, locales } from './i18n/settings'
@@ -97,13 +96,12 @@ export default async function RootLayout({
       <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />
       <link rel="manifest" href="/static/favicons/site.webmanifest" />
       <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5" />
-      <meta name="msapplication-TileColor" content="#000000" />
-      <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
-      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      {/* <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
+      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" /> */}
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased dark:bg-gray-950 dark:text-white">
-        <TwSizeIndicator />
-        <ThemeProvider>
+      <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased">
+        <>
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
           <SectionContainer>
             <div className="flex h-screen flex-col justify-between font-sans">
@@ -114,7 +112,7 @@ export default async function RootLayout({
               <Footer />
             </div>
           </SectionContainer>
-        </ThemeProvider>
+        </>
       </body>
     </html>
   )

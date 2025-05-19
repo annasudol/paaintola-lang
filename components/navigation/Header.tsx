@@ -7,7 +7,6 @@ import Logo from '@/data/logo.svg'
 import Link from '../mdxcomponents/Link'
 import AuthorsMenu from './AuthorsMenu'
 import MobileNav from './MobileNav'
-import ThemeSwitch from '../theme/ThemeSwitch'
 import LangSwitch from '../langswitch'
 import SearchButton from '../search/SearchButton'
 import { useTranslation } from 'app/[locale]/i18n/client'
@@ -72,7 +71,6 @@ const Header = () => {
             })}
           <AuthorsMenu className="hidden sm:block" />
           <SearchButton />
-          <ThemeSwitch />
           <LangSwitch />
           <MobileNav />
         </div>
