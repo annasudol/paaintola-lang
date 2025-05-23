@@ -1,48 +1,23 @@
 {
-  "home": "Home",
-  "blog": "Blog",
-  "tags": "Tags",
-  "projects": "Projects",
   "about": "About",
-  "lang": "Language",
-  "showmenu": "Show menu",
-  "scrollcomment": "Scroll to comment",
-  "scrolltop": "Scroll to top",
-  "darkmode": "Toggle dark mode",
-  "content": "Content",
-  "kbarplaceholder": "Type a command or search",
-  "loading": "Loading...",
-  "noresults": "No results for your search...",
-  "poststagged": "View posts tagged",
-  "series": "Series:",
-  "episodes": "Episodes:",
-  "share": "SHARE",
-  "facebookshare": "facebook share button",
-  "twittershare": "twitter share button",
-  "linkedinshare": "linkedin share button",
-  "redditshare": "reddit share button",
-  "whatsappshare": "whatsapp share button",
-  "telegramshare": "telegram share button",
-  "pinterestshare": "pinterest share button",
-  "threadsshare": "threadsshare button",
-  "theme": "Theme",
-  "light": "Light",
-  "dark": "Dark",
-  "system": "System",
-  "name": "Name*",
-  "title": "Contact me",
-  "mail": "Email*",
-  "button": "Submit",
-  "error": "Oops, something went wrong!",
-  "thanks": "Thank you for contacting me, I will get back to you shortly!",
-  "message": "Message*",
-  "copyurl": "Copy URL",
-  "urlcopied": "URL copied!",
-  "contact": "Contact",
-  "back": "Go Back",
-  "settings": "Settings",
-  "language": "Language",
-  "french": "French",
-  "english": "English",
-  "sidetoc": "On this page:"
+  "title": "About Paintola",
+  "description1": "Paintola is a next-generation e-commerce platform that allows users to generate unique artwork using AI and seamlessly turn their creations into personalized posters or canvas prints.",
+  "description2": "The company is using cutting-edge AI tools designed to make creative expression more accessible, enjoyable, and efficient...",
+  "description3": "We believe that everyone has a natural urge to create and share...",
+  "personalized-art": {
+    "title": "Personalized art",
+    "text": "Paintola helps you curate a beautiful and contemporary home...",
+    "alt": "personalized art"
+  },
+  "quality": {
+    "title": "High quality prints",
+    "text": "Paintola's art and prints are high quality and created with sustainability in mind..."
+  },
+  "sustainability": {
+    "title": "Sustainability",
+    "text": "Paintola is committed to sustainability and reducing our carbon footprint..."
+  },
+  "link": {
+    "more-info": "Get more information about our prints"
+  }
 }
