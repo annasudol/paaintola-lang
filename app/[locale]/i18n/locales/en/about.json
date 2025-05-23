@@ -1,3 +1,23 @@
 {
-  "about": "About"
+  "about": "About",
+  "title": "About Paintola",
+  "description1": "Paintola is a next-generation e-commerce platform that allows users to generate unique artwork using AI and seamlessly turn their creations into personalized posters or canvas prints.",
+  "description2": "The company is using cutting-edge AI tools designed to make creative expression more accessible, enjoyable, and efficient...",
+  "description3": "We believe that everyone has a natural urge to create and share...",
+  "personalized-art": {
+    "title": "Personalized art",
+    "text": "Paintola helps you curate a beautiful and contemporary home...",
+    "alt": "personalized art"
+  },
+  "quality": {
+    "title": "High quality prints",
+    "text": "Paintola's art and prints are high quality and created with sustainability in mind..."
+  },
+  "sustainability": {
+    "title": "Sustainability",
+    "text": "Paintola is committed to sustainability and reducing our carbon footprint..."
+  },
+  "link": {
+    "more-info": "Get more information about our prints"
+  }
 }
